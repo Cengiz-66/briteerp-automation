@@ -1,0 +1,212 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7434166800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.briteerp.stepdefinitions.newContactStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5276365800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user navigate to \"Contacts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contacts\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.briteerp.stepdefinitions.newContactStepDefs.the_user_navigate_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2344035700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user click \"Create\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.briteerp.stepdefinitions.newContactStepDefs.the_user_click_button(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-19T22:54:48.118Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10993567600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.briteerp.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "the user create a new contact with using proper data",
+        "description": "",
+        "id": "the-user-can-create-a-new-contact;the-user-create-a-new-contact-with-using-proper-data",
+        "after": [
+          {
+            "result": {
+              "duration": 810864200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.briteerp.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 162898700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user click company radio button",
+            "match": {
+              "location": "com.briteerp.stepdefinitions.newContactStepDefs.the_user_click_company_radio_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1983828600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the user enters the following information",
+            "match": {
+              "location": "com.briteerp.stepdefinitions.newContactStepDefs.the_user_enters_the_following_information(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Name",
+                  "Kuscubasi Company"
+                ]
+              },
+              {
+                "cells": [
+                  "Street",
+                  "521"
+                ]
+              },
+              {
+                "cells": [
+                  "City",
+                  "Tirana"
+                ]
+              },
+              {
+                "cells": [
+                  "Country",
+                  "Albania"
+                ]
+              },
+              {
+                "cells": [
+                  "Phone",
+                  "0987654321"
+                ]
+              },
+              {
+                "cells": [
+                  "Mobile",
+                  "0123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "Email",
+                  "contact@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2308033800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user click \"Save\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Save\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.briteerp.stepdefinitions.newContactStepDefs.the_user_click_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64959200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "title contains \"Kuscubasi Company\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kuscubasi Company\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.briteerp.stepdefinitions.newContactStepDefs.title_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "The user can create a new contact",
+    "description": "",
+    "id": "the-user-can-create-a-new-contact",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/newContact.feature",
+    "tags": []
+  }
+]
